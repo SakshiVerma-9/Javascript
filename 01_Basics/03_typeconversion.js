@@ -41,7 +41,7 @@ console.log(3/2);
 console.log(3%2);
 */
 let str1 = "Hello"
-let str2 = "Sakshi"
+let str2 = " Sakshi"
 
 let str3 = str1 + str2
 console.log(str3);
@@ -50,3 +50,10 @@ console.log("1" + 2);
 console.log(1 + "2");
 console.log("1" + 2 + 2);
 console.log(1 + "2" + 2);
+console.log(1 + 2 + "2");
+console.log((3+4)*5 % 3);
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
